@@ -21,7 +21,8 @@ $subject = "=?utf-8?B?".base64_encode("Тестовое сообщение")."?=
 $headers = "From: $email\r\nReply-to: $email\r\nContent-
 type: text/html;charset=utf-8\r\r";
 
-mail('aleksander13@ukr.net', $subject, $message, $headers);
+//mail('aleksander13@ukr.net', $subject, $message, $headers);
+mail('aleksander13@ukr.net', 'My Subject', $message);
 
 header('Location: /about.php');
 ?>
