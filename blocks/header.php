@@ -8,15 +8,15 @@
         <ul class="nav nav-pills">
             <li class="nav-item"><a href="/index.php" class="nav-link">Главная</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-            <li class="nav-item"><a href="/about" class="nav-link">Контакты</a></li>
+            <li class="nav-item"><a href="/about.php" class="nav-link">Контакты</a></li>
 
             <?php
             if(isset($_COOKIE['user']) ):
             ?>
-            <li class="nav-item"><a href="/php_dz2/auth.php" class="nav-link active" aria-current="page">Кабинет пользователя</a></li>
+            <li class="nav-item"><a href="/auth.php" class="nav-link active" aria-current="page">Кабинет пользователя</a></li>
 
             <?php else: ?>
-            <li class="nav-item"><a href="/php_dz2/auth.php" class="nav-link active" aria-current="page">Войти</a></li>
+            <li class="nav-item"><a href="/auth.php" class="nav-link active" aria-current="page">Войти</a></li>
             <?php endif;?>
         </ul>
     </header>
