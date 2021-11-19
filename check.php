@@ -23,5 +23,5 @@ type: text/html;charset=utf-8\r\r";
 
 mail('aleksander13@ukr.net', $subject, $message, $headers);
 
-header('Location: /php_dz2/about.php');
+header('Location: /about.php');
 ?>
