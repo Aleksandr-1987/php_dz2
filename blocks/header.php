@@ -6,9 +6,9 @@
         </a>
 
         <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link">Главная</a></li>
+            <li class="nav-item"><a href="/php_dz2/index.php" class="nav-link">Главная</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Контакты</a></li>
+            <li class="nav-item"><a href="/php_dz2/about" class="nav-link">Контакты</a></li>
 
             <?php
             if(isset($_COOKIE['user']) ):
