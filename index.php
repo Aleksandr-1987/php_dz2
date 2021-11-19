@@ -17,6 +17,7 @@
     <h3 class="mb-5">Наши статьи</h3>
     <div class="d-flex flex-wrap">
         <?php
+        phpinfo();
         for ($i = 0; $i < 5; $i++):
         ?>
             <div class="col-4">
